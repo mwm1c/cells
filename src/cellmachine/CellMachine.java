@@ -25,9 +25,9 @@ public class CellMachine {
 		}
 		View view = new View(field);
 		JFrame frame = new JFrame();
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setResizable(false);
-		frame.setTitle("Cells");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	// 添加退出按键
+		frame.setResizable(false);		// 不可改变窗口大小
+		frame.setTitle("Cells");		// 设置窗口名称
 		frame.add(view);
 		frame.pack();
 		frame.setVisible(true);
