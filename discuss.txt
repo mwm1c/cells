@@ -1,0 +1,9 @@
+讨论0: 
+Cell要不要知道Field?
+在城堡游戏中, Handler是知道Game的
+在细胞自动机中, Cell是不知道Field的
+
+
+讨论1:
+如果另外用一个ArrayList<Animal>来表示所有的动物,每一步遍历这个列表而非整个Field,这样做是否更好?
+提示:这样就需要每Animal知道自己在Field里的位置
